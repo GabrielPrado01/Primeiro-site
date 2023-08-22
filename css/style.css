@@ -75,7 +75,26 @@ header h1{
     list-style-type: none; 
     gap: 20px; 
 
-} 
+}
+
+button {
+    font-family: monospace;
+    font-size: 20px;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 10px;
+    border: 1px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 35px 0;
+  }
+  
+  button:active {
+    box-shadow: none;
+    transform: translate(2px, 2px);
+  }
 
  
  
