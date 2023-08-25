@@ -78,22 +78,21 @@ header h1{
 }
 
 button {
-    font-family: monospace;
-    font-size: 20px;
-    color: #FAFAFA;
-    text-transform: uppercase;
-    padding: 3px 8px;
-    border-radius: 10px;
-    border: 1px solid #FAFAFA;
-    background: #252525;
-    box-shadow: 3px 3px #fafafa;
+    width: 90px;
+    height: 45px;
+    border: 3px solid #ccc;
+    border-radius: 45px;
+    transition: all 0.3s;
     cursor: pointer;
-    margin: 35px 0;
+    background: white;
+    font-size: 1.2em;
+    font-weight: 550;
   }
   
-  button:active {
-    box-shadow: none;
-    transform: translate(2px, 2px);
+  button:hover {
+    background: #ccc;
+    color: white;
+    font-size: 1.5em;
   }
 
  
@@ -101,7 +100,7 @@ button {
 
 header nav ul li a{ 
 
-    color: #fff; 
+    color: #000000; 
     padding: 0 0 8px 0; 
 
 } 
@@ -127,7 +126,7 @@ header nav ul li a{
 
 .bloco { 
 
-    background: #000; 
+    background: #ccc; 
     width: 60px; 
     height: 60px;    
 
@@ -219,8 +218,7 @@ ul, li{
   a { 
 
     display: block; 
-    padding: 8px; 
-    background-color: black; 
+    padding: 8px;  
 
   } 
 
@@ -237,8 +235,7 @@ ul, li{
     list-style-type: none; 
     margin: 0; 
     padding: 0; 
-    overflow: hidden; 
-    background-color: blue; 
+    overflow: hidden;  
 
      
 
@@ -283,6 +280,6 @@ footer{
 
 .active{ 
 
-    border-bottom: 4px solid blue; 
+    border-bottom: 4px solid rgb(0, 0, 0); 
 
 } 
