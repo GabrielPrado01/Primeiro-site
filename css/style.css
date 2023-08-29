@@ -20,7 +20,7 @@ a {
 header{ 
 
     background: black; 
-    color: #fff; 
+    color: #020202; 
 
 } 
 
@@ -76,6 +76,8 @@ header h1{
     gap: 20px; 
 
 }
+
+
 
 button {
     width: 90px;
@@ -182,8 +184,24 @@ main.wrapper{
 
 } 
 
- 
- 
+.card {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 0 0 20px 0;
+}
+
+.card div{
+    padding: 20px;
+}
+
+.card img {
+border-radius: 15px 15px 0 0;
+}
+
+.card div h3{
+    margin: 0 0 10px 0;
+
+}
 
 #content { 
 
